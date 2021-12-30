@@ -9,8 +9,6 @@ from keras.layers import Dense
 from keras.layers import LSTM
 from keras.layers import Bidirectional
 
-print(np.version.version)
-
 file = 'favicon.png'
 favicon = Image.open(file)
 
