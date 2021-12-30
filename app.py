@@ -116,7 +116,7 @@ if (data_valid == True):
         model.add(Dense(1))
         model.compile(optimizer='adam', loss='mse')
         # fit model
-        model.fit(X, y, epochs=1500, verbose=1)
+        model.fit(X, y, epochs=1000, verbose=1)
         # demonstrate prediction
         st.success('Entrenamiento completado!')
         x_input = timeseries_data[-days:].values
