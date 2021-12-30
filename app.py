@@ -49,8 +49,8 @@ df = st.file_uploader(
 st.write('''
     #### Debe contar con:
     * Terminación .csv o .xsxl
-    * Una columna con los datos de las ventas pasadas o precios pasados
-    * Una columna con las fechas  
+    * Una columna con los datos de las ventas pasadas o precios pasados llamada 'Prices'
+    * Una columna con las fechas llamada 'Dates'
 ''')
 
 data_valid = False
