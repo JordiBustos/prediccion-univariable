@@ -77,7 +77,7 @@ if df is not None:
             ''')
 else:
     st.write('''
-        ## Esperando que se ingrese un archivo CSV
+        ## Esperando que se ingrese un archivo
     ''')
 
 
