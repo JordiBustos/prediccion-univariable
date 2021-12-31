@@ -43,7 +43,7 @@ st.sidebar.write('### Gracias por confiar en nosotros!')
 # FIN sidebar section
 
 df = st.file_uploader(
-    "-Por favor ingrese su archivo CSV o XSXL con los datos"
+    "-Por favor ingrese su archivo CSV o XSXL con los datos", type=['csv', 'xslx']
 )
 
 st.write('''
